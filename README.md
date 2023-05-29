@@ -1,5 +1,5 @@
 # GcodeParser
-Gcode Parser
+This library is a C++ class library for extracting words from G code block.
 
 ## Requirement
 * Boost C++ 1.82.0 or later <https://www.boost.org/> (Simply expand it.)
