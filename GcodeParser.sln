@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GcodeParser", "GcodeParser\GcodeParser.vcxproj", "{7E912BA5-47BE-4383-8328-E5166A966B1C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample", "Sample\Sample.vcxproj", "{47C54EC6-F055-46E1-8C3C-A7FED9047814}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E912BA5-47BE-4383-8328-E5166A966B1C} = {7E912BA5-47BE-4383-8328-E5166A966B1C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
