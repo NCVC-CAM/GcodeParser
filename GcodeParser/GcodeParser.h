@@ -2,9 +2,8 @@
 
 #include <string>
 
-// GcodeParser.h
-// 
 //////////////////////////////////////////////////////////////////////
+//	GcodeParser.h
 
 class GcodeParser
 {
@@ -16,4 +15,8 @@ public:
 	GcodeParser(const char*);
 	GcodeParser(const std::string&);
 
+	void	SetBlock(const char*);
+	void	SetBlock(const std::string&);
+
+	std::string	GetWord(void);
 };
