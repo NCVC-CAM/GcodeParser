@@ -4,7 +4,9 @@
 #include "pch.h"
 #include "framework.h"
 
-// TODO: これは、ライブラリ関数の例です
-void fnGcodeParser()
-{
-}
+#include <string>
+
+#pragma	warning( disable : 4819 )		// codepage
+#include "boost/spirit/include/qi.hpp"
+#include "boost/spirit/repository/include/qi_confix.hpp"
+#include "GcodeParser.h"
