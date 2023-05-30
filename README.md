@@ -23,3 +23,7 @@ Kenichi Magara / NIT(KOSEN) Maizuru College
 
 ## Image
 ![cmd.png](docs/cmd.png)
+
+## Qt setting
+Qtのセッティングには慣れていないため自信がありません．間違いがあればご指摘願います．
+![Qt.png](docs/Qt.png)
