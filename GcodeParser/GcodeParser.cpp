@@ -1,9 +1,10 @@
 ﻿// GcodeParser.cpp : スタティック ライブラリ用の関数を定義します。
 //
-#ifdef _MSC_VER
 #include "pch.h"
-#endif
+
+#ifdef _MSC_VER
 #pragma	warning( disable : 4819 )		// codepage
+#endif
 #include "boost/spirit/include/qi.hpp"
 #include "boost/spirit/repository/include/qi_confix.hpp"
 #include "GcodeParser.h"
